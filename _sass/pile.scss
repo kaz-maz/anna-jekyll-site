@@ -1,0 +1,328 @@
+body {
+    background-color: rgb(255, 241, 113);
+  }
+  
+  img {
+    padding: 0px;
+    width: 250px;
+  }
+
+  p{
+  font-family: Courier New, monospace;
+  font-size: 13px;
+  color: rgb(254, 1, 1);
+  }
+
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(254, 1, 1);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+/**--------------------------CSS for lookbook room-----dear-sweetheart/lookbook page--------------------**/
+
+.print2 a:hover {
+    -webkit-filter: drop-shadow(10px 10px 30px rgb(255, 0, 0));
+    filter: drop-shadow(10px 10px 30px rgb(255, 0, 0)); 
+    }
+    
+    .print3 a:hover {
+    -webkit-filter: drop-shadow(10px 10px 30px rgb(0, 26, 255));
+    filter: drop-shadow(10px 10px 30px rgb(0, 26, 255)); 
+    }
+    
+    .print19 a:hover {
+    -webkit-filter: drop-shadow(0px 0px 20px rgb(255, 0, 0));
+    filter: drop-shadow(0px 0px 20px rgb(255, 0, 0)); 
+    }
+    
+    .print18 a:hover {
+    -webkit-filter: drop-shadow(10px 10px 20px rgb(255, 0, 0));
+    filter: drop-shadow(10px 10px 20px rgb(255, 0, 0)); 
+    }
+    
+    div.print {
+    background-image: url(table-background.png);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+    height: 1500px;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /**border: 1px solid #73AD21;**/
+    }
+
+    div.prepimg{
+    position: absolute;
+    z-index: -3;
+    bottom: 900px;
+    left: 880px;
+    width: auto;
+    height: auto;
+    transform: rotate(0deg);  
+    }
+   
+    div.still1img{
+    position: absolute;
+    z-index: 6;
+    bottom: -20px;
+    left: 940px;
+    width: auto;
+    height: auto;
+    transform: rotate(0deg);  
+    }
+    
+    div.still2img{
+    position: absolute;
+    z-index: 1;
+    bottom: 1200px;
+    left: 340px;
+    width: auto;
+    height: auto;
+    transform: rotate(12deg);  
+    }
+    
+    div.still3img{
+    position: absolute;
+    z-index: -6;
+    bottom: -30px;
+    left: 460px;
+    width: auto;
+    height: auto;
+    transform: rotate(-15deg);  
+    }
+    
+    div.still4img{
+    position: absolute;
+    z-index: 0;
+    bottom: 370px;
+    left: 690px;
+    width: auto;
+    height: auto;
+    transform: rotate(-5deg);  
+    }
+    
+    div.still5img{
+    position: absolute;
+    z-index: -3;
+    bottom: 900px;
+    left: 840px;
+    width: auto;
+    height: auto;
+    transform: rotate(5deg);  
+    }
+    
+    div.teandaisyimg{
+    position: absolute;
+    z-index: -5;
+    bottom: -280px;
+    left: 710px;
+    width: auto;
+    height: auto;
+    transform: rotate(-10deg);  
+    }
+    
+    div.adaimg{
+    position: absolute;
+    z-index: -1;
+    bottom: -30px;
+    left: 780px;
+    width: auto;
+    height: auto;
+    transform: rotate(4deg); 
+    }
+    
+    div.alexaimg{
+    position: absolute;
+    z-index: 3;
+    bottom: 1100px;
+    left: 670px;
+    width: auto;
+    height: auto;
+    transform: rotate(-10deg);  
+    }
+    
+    div.ali1img{
+    position: absolute;
+    z-index: 0;
+    bottom: 200px;
+    left: 20px;
+    width: auto;
+    height: auto;
+    transform: rotate(5deg);  
+    }
+    
+    div.ali2img{
+    position: absolute;
+    z-index: 5;
+    bottom: 760px;
+    left: 100px;
+    width: auto;
+    height: auto;
+    transform: rotate(-17deg);  
+    }
+    
+    div.outfit1img{
+    position: absolute;
+    z-index: -6;
+    bottom: 850px;
+    left: 1100px;
+    width: auto;
+    height: auto;
+    transform: rotate(-3deg);  
+    }
+    
+    div.outfit2img{
+    position: absolute;
+    z-index: -6;
+    bottom: 220px;
+    left: 890px;
+    width: auto;
+    height: auto;
+    transform: rotate(0deg); 
+    -webkit-filter: drop-shadow(-8px 8px 10px rgb(0, 0, 0)); 
+    }
+    
+    div.outfit3img{
+    position: absolute;
+    bottom: -260px;
+    left: 120px;
+    width: auto;
+    height: auto;
+    transform: rotate(-5deg);  
+    }
+    
+    div.outfit4img{
+    position: absolute;
+    z-index: 0;
+    bottom: 30px;
+    left: 1090px;
+    width: auto;
+    height: auto;
+    transform: rotate(130deg);
+    -webkit-filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));  
+    }
+    
+    div.outfit5img{
+    position: absolute;
+    bottom: 350px;
+    left: 250px;
+    width: auto;
+    height: auto;
+    transform: rotate(-6deg);  
+    }
+    
+    div.paudaisyimg{
+    position: absolute;
+    bottom: 1150px;
+    left: 890px;
+    width: auto;
+    height: auto;
+    transform: rotate(15deg);  
+    }
+    
+    div.paukit1img{
+    position: absolute;
+    bottom: 630px;
+    left: 820px;
+    width: auto;
+    height: auto;
+    transform: rotate(7deg);  
+    }
+    
+    div.paukit2img{
+    position: absolute;
+    bottom: 170px;
+    left: 890px;
+    width: auto;
+    height: auto;
+    transform: rotate(-10deg);
+    -webkit-filter: drop-shadow(8px 8px 10px rgb(0, 0, 0)); 
+    }
+    
+    div.wilbyimg{
+    position: absolute;
+    bottom: 540px;
+    left: -50px;
+    width: auto;
+    height: auto;
+    transform: rotate(-10deg);  
+    }
+    
+    div.siobimg{
+    position: absolute;
+    bottom: 470px;
+    left: 1150px;
+    width: auto;
+    height: auto;
+    transform: rotate(140deg);
+    -webkit-filter: drop-shadow(10px -8px 10px rgb(0, 0, 0)); 
+    }
+    
+    div.ssz1img{
+    position: absolute;
+    bottom: -20px;
+    left: 170px;
+    width: auto;
+    height: auto;
+    transform: rotate(8deg);  
+    }
+    
+    div.ssz2img{
+    position: absolute;
+    bottom: -10px;
+    left: 30px;
+    width: auto;
+    height: auto;
+    transform: rotate(20deg);  
+    }
+    
+    div.stillimg{
+    position: absolute;
+    z-index: -6;
+    bottom: -190px;
+    left: 840px;
+    width: auto;
+    height: auto;
+    transform: rotate(20deg);  
+    }
+    
+    div.still6img{
+    position: absolute;
+    z-index: 8;
+    bottom: -130px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    transform: rotate(-1deg);  
+    }
+    
+    div.zoeimg{
+    position: absolute;
+    bottom: -205px;
+    left: 450px;
+    width: auto;
+    height: auto;
+    transform: rotate(1deg);  
+    }
+
+    div.credits{
+    position: absolute;
+    z-index: 10;
+    bottom: 200px;
+    left: 380px;
+    width: auto;
+    height: auto;
+    }

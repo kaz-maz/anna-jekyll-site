@@ -1,0 +1,17 @@
+---
+layout: default
+title: blob
+permalink: /my-blob/
+---
+
+<div>
+  {% for post in site.posts %}
+    <ul>
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+      </li>
+    </ul>
+  {% endfor %}
+</div>
+
+<img src="https://i.postimg.cc/wBMPfxJy/arts-plastiques.png" alt="print" width="200" height="auto">

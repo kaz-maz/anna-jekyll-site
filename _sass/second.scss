@@ -1,0 +1,659 @@
+body {
+    background-color: white;
+    color: blue;
+    font-family: Courier New, monospace;
+    font-size: 14px;
+}
+
+/** affects ombre on link in print page
+a:hover {
+    background-color: rgb(179, 255, 185);
+}
+**/
+
+.info {
+  position: relative;
+  display:block;
+}
+
+.info a.imglink img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.info a.imglink:hover img{
+  opacity:0.5;
+}
+
+.nav{
+    list-style: none;
+    padding:0;
+}
+  
+.nav li {
+    display:inline;
+}
+
+.menu{
+    background: rgba(0, 0, 0, 0.349);
+    padding: 0px;
+    opacity: 1;
+    position: relative;
+    top: -15px;
+    width: max-content;
+}
+
+/**------------------css for archive page--------------------------------------------------**/
+div.pull {
+position: relative;
+top: 1200px;
+left: 0px;
+width: 100%;
+height: 900px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+/**border: 3px solid #73AD21;**/
+}
+
+div.pull1 {
+  position: absolute;
+  bottom: 300px;
+  left: 20px;
+  width: 250px;
+  height: max-content;
+  background-color: rgba(255, 255, 0, 0.726);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.pull2 {
+  position: absolute;
+  bottom: 400px;
+  right: 20px;
+  width: 300px;
+  height: max-content;
+  background-color: rgba(255, 255, 0, 0.726);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.pull3 {
+  position: absolute;
+  bottom: 150px;
+  left: 300px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(255, 255, 0, 0.726);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.tshirt {
+  position: absolute;
+  bottom: 1000px;
+  left: 70px;
+  width: 250px;
+  height: max-content;
+  z-index: 1;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.medea-front {
+  position: absolute;
+  bottom: 660px;
+  left: 170px;
+  width: 300px;
+  height: max-content;
+  background-color: rgba(172, 70, 255, 0.726);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.medea-back {
+  position: absolute;
+  bottom: 660px;
+  left: 500px;
+  width: 250px;
+  height: max-content;
+  background-color: rgba(172, 70, 255, 0.726);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.leaside {
+  position: absolute;
+  bottom: 1800px;
+  left: 520px;
+  width: 280px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+  div.pfc {
+  position: absolute;
+  bottom: 1400px;
+  left: 70px;
+  width: 150px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+  div.selfp {
+  position: absolute;
+  bottom: 800px;
+  right: 50px;
+  width: 100px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+  div.anti {
+  position: absolute;
+  bottom: 1600px;
+  right: 30px;
+  width: 150px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+  div.tb1 {
+  position: absolute;
+  bottom: 950px;
+  left: 520px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+  div.tb2 {
+  position: absolute;
+  bottom: 950px;
+  left: 745px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.pg1 {
+  position: absolute;
+  bottom: 1304px;
+  left: 745px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.pg2 {
+  position: absolute;
+  bottom: 1304px;
+  left: 520px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.pl1 {
+  position: absolute;
+  bottom: 1650px;
+  left: 250px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.pl2 {
+  position: absolute;
+  bottom: 1200px;
+  right: 10px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.pl3 {
+  position: absolute;
+  bottom: 1400px;
+  left: 900px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(78, 96, 255, 0.486);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+div.andother1 {
+  position: absolute;
+  bottom: 1204px;
+  left: 280px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(78, 96, 255, 0.486);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+
+/**------------------divs for prints page--------------------------------------------------**/
+
+.text{
+  width: 1200px;
+  height: 50px;
+  z-index: 5;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 13px;
+  bottom: 0px;
+  left: 212px;
+  margin-top: -22px;
+}
+
+.print2 a:hover {
+-webkit-filter: drop-shadow(10px 10px 30px rgb(255, 0, 0));
+filter: drop-shadow(10px 10px 30px rgb(255, 0, 0)); 
+}
+
+.print3 a:hover {
+-webkit-filter: drop-shadow(10px 10px 30px rgb(0, 26, 255));
+filter: drop-shadow(10px 10px 30px rgb(0, 26, 255)); 
+}
+
+.print19 a:hover {
+-webkit-filter: drop-shadow(0px 0px 20px rgb(255, 0, 0));
+filter: drop-shadow(0px 0px 20px rgb(255, 0, 0)); 
+}
+
+.print18 a:hover {
+-webkit-filter: drop-shadow(10px 10px 20px rgb(255, 0, 0));
+filter: drop-shadow(10px 10px 20px rgb(255, 0, 0)); 
+}
+
+div.print {
+background-image: url(print-background.png);
+background-size: 800px;
+background-repeat: no-repeat;
+background-position: 5px 50px;
+position: relative;
+top: 10px;
+left: 70px;
+width: 100%;
+height: 1500px;
+margin-top: -10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+/**border: 1px solid #73AD21;**/
+}
+
+div.print1{
+position: absolute;
+z-index: -1;
+bottom: -100px;
+left: 670px;
+width: auto;
+height: auto;
+transform: rotate(-10deg); 
+}
+
+div.print2{
+position: absolute;
+z-index: 3;
+bottom: 1100px;
+left: 630px;
+width: auto;
+height: auto;
+transform: rotate(-10deg);  
+}
+
+div.print3{
+position: absolute;
+z-index: 5;
+bottom: 1350px;
+left: 130px;
+width: auto;
+height: auto;
+transform: rotate(-10deg);  
+}
+
+div.print4{
+position: absolute;
+bottom: 800px;
+left: 100px;
+width: auto;
+height: auto;
+transform: rotate(-20deg);  
+}
+
+div.print5{
+position: absolute;
+bottom: 1150px;
+left: 200px;
+width: auto;
+height: auto;
+transform: rotate(0deg);  
+}
+
+div.print6{
+position: absolute;
+bottom: 290px;
+left: 210px;
+width: auto;
+height: auto;
+transform: rotate(0deg); 
+-webkit-filter: drop-shadow(-8px 8px 10px rgb(0, 0, 0)); 
+}
+
+div.print7{
+position: absolute;
+bottom: 1300px;
+left: 500px;
+width: auto;
+height: auto;
+transform: rotate(0deg);  
+}
+
+div.print8{
+position: absolute;
+z-index: 6;
+bottom: 940px;
+left: 730px;
+width: auto;
+height: auto;
+transform: rotate(25deg);
+-webkit-filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));  
+}
+
+div.print9{
+position: absolute;
+bottom: 650px;
+left: 350px;
+width: auto;
+height: auto;
+transform: rotate(0deg);  
+}
+
+div.print10{
+position: absolute;
+bottom: 1150px;
+left: 850px;
+width: auto;
+height: auto;
+transform: rotate(15deg);  
+}
+
+div.print11{
+position: absolute;
+bottom: 1200px;
+left: -70px;
+width: auto;
+height: auto;
+transform: rotate(180deg);  
+}
+
+div.print12{
+position: absolute;
+bottom: 520px;
+left: 650px;
+width: auto;
+height: auto;
+transform: rotate(10deg);
+-webkit-filter: drop-shadow(8px 8px 10px rgb(0, 0, 0)); 
+}
+
+div.print13{
+position: absolute;
+bottom: 540px;
+left: -50px;
+width: auto;
+height: auto;
+transform: rotate(-10deg);  
+}
+
+div.print14{
+position: absolute;
+bottom: 470px;
+left: 1150px;
+width: auto;
+height: auto;
+transform: rotate(150deg);
+-webkit-filter: drop-shadow(10px -8px 10px rgb(0, 0, 0)); 
+}
+
+div.print15{
+position: absolute;
+bottom: 0px;
+left: 170px;
+width: auto;
+height: auto;
+transform: rotate(-50deg);  
+}
+
+div.print16{
+position: absolute;
+bottom: 0px;
+left: 0px;
+width: auto;
+height: auto;
+transform: rotate(20deg);  
+}
+
+div.print17{
+position: absolute;
+bottom: -50px;
+left: 30px;
+width: auto;
+height: auto;
+transform: rotate(0deg);  
+}
+
+div.print18{
+position: absolute;
+z-index: 8;
+bottom: 1430px;
+left: 460px;
+width: auto;
+height: auto;
+transform: rotate(-70deg);  
+}
+
+div.print19{
+position: absolute;
+z-index: 6;
+bottom: 920px;
+left: -60px;
+width: auto;
+height: auto;
+transform: rotate(165deg);  
+}
+
+div.tshirt1{
+position: absolute;
+z-index: 3;
+bottom: 920px;
+left: 790px;
+width: auto;
+height: auto;
+transform: rotate(5deg); 
+}
+
+/**full frame jpg**/
+div.printfull1{
+position: absolute;
+z-index: -3;
+bottom: 600px;
+left: 880px;
+width: auto;
+height: auto;
+transform: rotate(0deg);  
+}
+
+/**full frame jpg**/
+div.printfull2{
+position: absolute;
+z-index: -1;
+bottom: 320px;
+left: 480px;
+width: auto;
+height: auto;
+transform: rotate(10deg);  
+}
+
+/**full frame jpg**/
+div.printfull3{
+position: absolute;
+z-index: -2;
+bottom: 200px;
+left: 45px;
+width: auto;
+height: auto;
+transform: rotate(-50deg);  
+}
+
+/**full frame jpg**/
+div.printfull4{
+position: absolute;
+z-index: -6;
+bottom: 20px;
+left: 450px;
+width: auto;
+height: auto;
+transform: rotate(60deg);  
+}
+
+/**full frame jpg**/
+div.printfull5{
+position: absolute;
+z-index: -4;
+bottom: 770px;
+left: 510px;
+width: auto;
+height: auto;
+transform: rotate(-25deg);  
+}
+
+/**full frame jpg**/
+div.printfull6{
+position: absolute;
+z-index: -3;
+bottom: 300px;
+left: 860px;
+width: auto;
+height: auto;
+transform: rotate(5deg);  
+}
+
+/**full frame jpg**/
+div.printfull7{
+position: absolute;
+z-index: -5;
+bottom: 100px;
+left: 900px;
+width: auto;
+height: auto;
+transform: rotate(-10deg);  
+}
+
+/**full frame jpg**/
+div.printfull8{
+position: absolute;
+z-index: -7;
+bottom: -60px;
+left: 840px;
+width: auto;
+height: auto;
+transform: rotate(-5deg);  
+}

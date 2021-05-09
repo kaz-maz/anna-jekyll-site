@@ -1,0 +1,324 @@
+body {
+    background-color: rgb(255, 241, 113);
+  }
+  
+  img {
+    padding: 0px;
+    width: 250px;
+  }
+
+  p{
+  font-family: Courier New, monospace;
+  font-size: 13px;
+  color: rgb(254, 1, 1);
+  }
+
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(254, 1, 1);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .room {
+    background-image: url(salon-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 101%;
+    height: 780px;
+    width: 1100px;
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+  }
+  
+  .artwork {
+    position: relative;
+    top:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+      position: absolute;
+      width: auto;
+      height: auto;
+      border: 0px solid red;
+  }
+  
+  .frame {
+      z-index: 1;
+  }
+  
+  .scene {
+      z-index: 0;
+  }
+  
+  .title {
+    z-index: 2;
+    font-family: 'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
+      font-size: 12px;
+  }
+  
+  .vase-container {
+    position: relative;
+    top: 580px;
+    width: 150px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    border: 0px solid #ad3121;
+  }
+  
+  .vase {
+    position: absolute;
+    width: auto;
+    height: auto;
+    border: 0px solid #73AD21;
+  }
+  
+  .vase a:hover {
+    -webkit-filter: drop-shadow(0px 0px 10px rgb(1, 220, 56));
+    filter: drop-shadow(0px 0px 10px rgb(1, 220, 56)); 
+  }
+
+
+  /**--------------------------CSS for office room-----dear-sweetheart page--------------------**/
+
+  .text{
+  width: 1200px;
+  height: 50px;
+  z-index: 5;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 12px;
+  bottom: 60px;
+  left: 212px;
+}
+
+  .office {
+    background-image: url(office.jpg);
+    background-repeat: no-repeat;
+    background-size: 101%;
+    height: 830px;
+    width: 950px;
+    margin-top: -15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    border-left: 100px solid black;
+    border-right: 100px solid black;
+  }
+  
+  
+.ceramic {
+  width: 350px;
+  height: 380px;
+  position: relative;
+  top: 400px;
+  left: 590px;
+  display:flex;
+  background-image: url('https://i.postimg.cc/SNJK86Yp/vase.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 150px;
+  -webkit-filter: drop-shadow(0px 5px 3px rgb(52, 71, 49));
+}
+
+.ceramic:hover {
+background-image: url('https://i.postimg.cc/vB77d4Hm/broken-vase.png');
+background-repeat: no-repeat;
+background-position: center; 
+background-size: 300px;
+}
+
+
+.adasitting {
+  position: relative;
+  top: 90px;
+  left: -58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+    position: absolute;
+    width: auto;
+    height: auto;
+    border: 0px solid red;
+}
+
+.ada {
+    z-index: 1;
+}
+
+.ada a:hover {
+  /**-webkit-filter: hue-rotate(90deg) opacity(0.8);
+  -webkit-filter: drop-shadow(0px 80px 50px rgba(52, 71, 49, 0.486));**/
+}
+
+.moreoutfits {
+  z-index: 2;
+  font-family: 'Brushstroke',cursive;
+  font-size: 27px;
+  text-align: center;
+  line-height: 24px;
+  -webkit-transform: rotate(-5deg);
+  margin-left: 90px;
+  margin-bottom: 50px;
+}
+
+.moreoutfits a:link {
+  opacity: 1%;
+}
+
+.moreoutfits a:hover {
+  opacity: 100%;
+  text-decoration: underline;
+}
+
+.screen {
+z-index: 2;
+bottom: 37px;
+left: 202px;
+}
+
+.screen a:hover {
+  -webkit-filter: brightness(300%);
+  cursor: text;
+}
+
+.type {
+  width: 87px;
+  height: 70px;
+  z-index: 3;
+  font-family: 'courier new',cursive;
+  font-size: 10px;
+  transform: rotate(-28deg);
+  bottom: 60px;
+  left: 212px;
+}
+
+.decor {
+  position: relative;
+  top: 170px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ovalframe {
+    z-index: 1;
+}
+
+.painting {
+    z-index: 0;
+}
+
+.more {
+  z-index: 2;
+  font-family: 'Brushstroke',cursive;
+  font-size: 27px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.more a:link {
+  opacity: 10%;
+}
+
+.more a:hover {
+  opacity: 100%;
+  text-decoration: underline;
+}
+
+/**--------------------------CSS for paintings room-----dear-sweetheart page--------------------**/
+
+/**
+.posters{
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: 1000px;
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #73AD21;
+}
+**/
+
+.poster1{
+  position: absolute;
+  z-index: -3;
+  top: 140px;
+  left: 110px;
+  width: auto;
+  height: auto;
+  transform: rotate(-25deg);
+}
+
+.poster1:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
+
+.poster2{
+  position: absolute;
+  z-index: -2;
+  top: 130px;
+  left: 180px;
+  width: auto;
+  height: auto;
+  transform: rotate(-15deg); 
+}
+
+.poster2:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
+
+.poster3{
+  position: absolute;
+  z-index: -1;
+  top: 140px;
+  left: 270px;
+  width: auto;
+  height: auto;
+  transform: rotate(-2deg); 
+}
+
+.poster3:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
+
+.poster4{
+  position: absolute;
+  z-index: 0;
+  top: 170px;
+  left: 340px;
+  width: auto;
+  height: auto;
+  transform: rotate(10deg); 
+}
+
+.poster4:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
