@@ -47,7 +47,7 @@ a:hover {
 /**------------------css for archive page--------------------------------------------------**/
 div.pull {
 position: relative;
-top: 1200px;
+top: 1800px;
 left: 0px;
 width: 100%;
 height: 900px;
@@ -107,13 +107,9 @@ div.tshirt {
   position: absolute;
   bottom: 1000px;
   left: 70px;
-  width: 250px;
+  width: 230px;
   height: max-content;
   z-index: 1;
-  background-color: rgba(119, 255, 78, 0.589);
-  border: 3px double blue;
-  border-width: 4px;
-  padding: 5px;
 	transform: rotate(0deg);
   font-size: 10px;
   font-style: italic;
@@ -136,8 +132,8 @@ div.medea-front {
 
 div.medea-back {
   position: absolute;
-  bottom: 660px;
-  left: 500px;
+  bottom: 675px;
+  left: 450px;
   width: 250px;
   height: max-content;
   background-color: rgba(172, 70, 255, 0.726);
@@ -148,28 +144,13 @@ div.medea-back {
   font-size: 10px;
   font-style: italic;
 }
-
-div.leaside {
-  position: absolute;
-  bottom: 1800px;
-  left: 520px;
-  width: 280px;
-  height: max-content;
-  background-color: rgba(119, 255, 78, 0.589);
-  border: 3px double blue;
-  border-width: 4px;
-  padding: 5px;
-	transform: rotate(0deg);
-  font-size: 10px;
-  font-style: italic;
-}
-
   div.pfc {
   position: absolute;
-  bottom: 1400px;
-  left: 70px;
+  bottom: 1480px;
+  left: 200px;
   width: 150px;
   height: max-content;
+  z-index: 1;
   background-color: rgba(119, 255, 78, 0.589);
   border: 3px double blue;
   border-width: 4px;
@@ -178,7 +159,6 @@ div.leaside {
   font-size: 10px;
   font-style: italic;
 }
-
   div.selfp {
   position: absolute;
   bottom: 800px;
@@ -193,22 +173,6 @@ div.leaside {
   font-size: 10px;
   font-style: italic;
 }
-
-  div.anti {
-  position: absolute;
-  bottom: 1600px;
-  right: 30px;
-  width: 150px;
-  height: max-content;
-  background-color: rgba(119, 255, 78, 0.589);
-  border: 3px double blue;
-  border-width: 4px;
-  padding: 5px;
-	transform: rotate(0deg);
-  font-size: 10px;
-  font-style: italic;
-}
-
   div.tb1 {
   position: absolute;
   bottom: 950px;
@@ -237,7 +201,12 @@ div.leaside {
   font-size: 10px;
   font-style: italic;
 }
-
+div.teapot {
+  position: absolute;
+  bottom: 860px;
+  left: 890px;
+  height: max-content;
+}
 div.pg1 {
   position: absolute;
   bottom: 1304px;
@@ -270,8 +239,8 @@ div.pg2 {
 
 div.pl1 {
   position: absolute;
-  bottom: 1650px;
-  left: 250px;
+  bottom: 2300px;
+  left: 3px;
   width: 200px;
   height: max-content;
   background-color: rgba(119, 255, 78, 0.589);
@@ -327,7 +296,212 @@ div.andother1 {
   font-size: 10px;
   font-style: italic;
 }
-
+div.anti {
+  position: absolute;
+  bottom: 2200px;
+  right: 30px;
+  width: 150px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.leaside {
+  position: absolute;
+  bottom: 2350px;
+  left: 420px;
+  width: 280px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.diary-knit {
+  position: absolute;
+  bottom: 2455px;
+  left: 725px;
+  width: 170px;
+  height: max-content;
+  background-color: rgba(78, 96, 255, 0.486);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.le-post-expo-1 {
+  position: absolute;
+  bottom: 2095px;
+  left: 300px;
+  width: 250px;
+  height: max-content;
+  background-color: rgba(78, 96, 255, 0.486);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.le-post-expo-2 {
+  position: absolute;
+  bottom: 1710px;
+  left: 300px;
+  width: 250px;
+  height: max-content;
+  background-color: rgba(78, 96, 255, 0.486);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.le-post-expo-3 {
+  position: absolute;
+  bottom: 1710px;
+  left: 625px;
+  width: 250px;
+  height: max-content;
+  background-color: rgba(78, 96, 255, 0.486);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.le-post-flyer {
+  position: absolute;
+  bottom: 1800px;
+  left: 900px;
+  width: 150px;
+  height: max-content;
+  background-color: rgba(78, 96, 255, 0.486);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.dye-collage {
+  position: absolute;
+  bottom: 1560px;
+  right: 10px;
+  width: 260px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.pack {
+  position: absolute;
+  bottom: 2400px;
+  left: 1050px;
+  width: 100px;
+  height: max-content;
+  z-index: 1;
+  background-color: rgba(78, 96, 255, 0.486);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.guitar {
+  position: absolute;
+  bottom: 1995px;
+  left: 3px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.sword-3 {
+  position: absolute;
+  bottom: 1637px;
+  left: 3px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.sword-2 {
+  position: absolute;
+  bottom: 1320px;
+  left: 3px;
+  width: 200px;
+  height: max-content;
+  background-color: rgba(119, 255, 78, 0.589);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.japan {
+  position: absolute;
+  bottom: 2095px;
+  left: 725px;
+  width: 250px;
+  height: max-content;
+  background-color: rgba(78, 96, 255, 0.486);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
+div.poem {
+  position: absolute;
+  bottom: 2075px;
+  left: 650px;
+  width: max-content;
+  height: max-content;
+  font-size: 10px;
+  font-style: italic;
+}
+div.acid-lily {
+  position: absolute;
+  bottom: 2455px;
+  left: 920px;
+  width: 190px;
+  height: max-content;
+  background-color: rgba(78, 96, 255, 0.486);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+	transform: rotate(0deg);
+  font-size: 10px;
+  font-style: italic;
+}
 /**------------------divs for prints page--------------------------------------------------**/
 
 .text{
