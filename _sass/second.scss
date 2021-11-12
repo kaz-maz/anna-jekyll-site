@@ -26,6 +26,8 @@ a:hover {
   opacity:0.5;
 }
 
+@media only screen and (max-width: 600px) { h2 { font-size: 25px;} }
+
 .nav{
     list-style: none;
     padding:0;
@@ -35,6 +37,8 @@ a:hover {
     display:inline;
 }
 
+@media only screen and (max-width: 600px) { .nav li { display: list-item;} }
+
 .menu{
     background: rgba(0, 0, 0, 0.349);
     padding: 0px;
@@ -43,6 +47,8 @@ a:hover {
     top: -15px;
     width: max-content;
 }
+
+@media only screen and (max-width: 600px) { .menu { width: 100%; font-size: 16px; top: -5px; background: rgba(0, 0, 0, 0.349);} }
 
 /**------------------css for archive page--------------------------------------------------**/
 div.pull {
@@ -509,6 +515,9 @@ div.acid-lily {
   font-size: 10px;
   font-style: italic;
 }
+
+@media only screen and (max-width: 600px) { .dear-gif, .diary-knit, .acid-lily, .leaside, .anti, .le-post-expo-1, .le-post-expo-2, .le-post-expo-3, .le-post-flyer, .pack, .guitar, .sword-3, .sword-2, .japan, .poem, .dye-collage, .pfc, .selfp, .tb2, .tb1, .pg1, .pg2, .pl1, .pl2, .pl3, .teapot, .andother1, .tshirt, .medea-front, .medea-back, .pull3, .pull1, .pull2 {
+  display: block;} }
 /**------------------divs for prints page--------------------------------------------------**/
 
 .text{

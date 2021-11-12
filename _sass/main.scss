@@ -20,6 +20,8 @@ h2{
   width: max-content; **/
 }
 
+@media only screen and (max-width: 600px) { h2 { font-size: 25px;} }
+
 li:hover {
   color: rgb(255, 0, 0);
 }
@@ -37,6 +39,8 @@ a:hover {
   display:inline;
 }
 
+@media only screen and (max-width: 600px) { .nav li { display: list-item;} }
+
 .menu{
   background: rgba(0, 0, 0, 0.349);
   padding: 0px;
@@ -45,6 +49,8 @@ a:hover {
   top: -15px;
   width: max-content;
 }
+
+@media only screen and (max-width: 600px) { .menu { width: 100%; font-size: 16px; top: -5px; background: rgba(0, 0, 0, 0.349);} }
 
 .info {
   position: relative;
@@ -60,3 +66,9 @@ a:hover {
 .info a.imglink:hover img{
   opacity:0.5;
 }
+
+.welcome { position: relative; top: -10px; background-color: transparent; }
+
+.welcome img { width: 400px; }
+
+@media only screen and (max-width: 600px) { .welcome img { width: 100%; } }
