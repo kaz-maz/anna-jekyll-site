@@ -51,6 +51,64 @@ a:hover {
 @media only screen and (max-width: 600px) { .menu { width: 100%; font-size: 16px; top: -5px; background: rgba(0, 0, 0, 0.349);} }
 
 /**------------------css for archive page--------------------------------------------------**/
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  max-width: 20%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  background-color: rgba(255, 255, 0, 0.726);
+  border: 3px double blue;
+  border-width: 4px;
+  padding: 5px;
+}
+
+.column p {
+  font-size: 11px;
+  font-style: italic;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  .column img {
+    margin-top: 0px;
+  }
+}
+
+/**
 div.pull {
 position: relative;
 top: 1800px;
@@ -61,7 +119,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-/**border: 3px solid #73AD21;**/
 }
 
 div.pull1 {
@@ -518,6 +575,7 @@ div.acid-lily {
 
 @media only screen and (max-width: 600px) { .dear-gif, .diary-knit, .acid-lily, .leaside, .anti, .le-post-expo-1, .le-post-expo-2, .le-post-expo-3, .le-post-flyer, .pack, .guitar, .sword-3, .sword-2, .japan, .poem, .dye-collage, .pfc, .selfp, .tb2, .tb1, .pg1, .pg2, .pl1, .pl2, .pl3, .teapot, .andother1, .tshirt, .medea-front, .medea-back, .pull3, .pull1, .pull2 {
   display: block;} }
+
 /**------------------divs for prints page--------------------------------------------------**/
 
 .text{
