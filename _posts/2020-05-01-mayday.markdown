@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: 🎮 Interactive May Day Game, Antiuniversity 2020
 ---
 

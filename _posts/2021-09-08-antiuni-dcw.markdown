@@ -8,7 +8,7 @@ title: ✊ Organising The Cultural Sector, A Social & Workshops @Conway Hall, An
 
 Work in the cultural sector is fragmented, precarious, and poorly regulated. While certain cultural work is well unionised, huge sections of the workforce remain unrepresented and prevented from organising by employment practices that keep workers atomised and on short-term freelance contracts, promoting individualisation, competitiveness, and fear of blacklisting. Existing collective agreements cannot keep up with the constant creation of new job types and contracts, which offer little security and deny workers their basic rights. Cultural workers are overworked, burnt out and underpaid, making organising all the more challenging, yet all the more essential if we are to demand a just recovery of the sector.
 
-**➤ About this event:**
+**➤ About this event:** [(archived event link)](https://www.antiuniversity.org/events/organising-the-cultural-sector-a-social-and-some-workshops)
 
 On the first Wednesday of each month, the Designers + Cultural Workers branch of United Voices of the World holds an all-member meeting, giving an opportunity for all current and prospective members to find out more about how the union organises, feed ideas into campaigns, connect with other members, and share knowledge.
 
@@ -30,5 +30,3 @@ Conway Hall, 25 Red Lion Square, London WC1R 4RL
 Venue details: head to the Bertrand Russell Room (seating capacity of 35) at Conway Hall. It is located on the ground floor and is accessible by wheelchair via a shallow ramp.
 
 <img src="https://i.postimg.cc/JzJPwJGL/DCW-ANTIUNI-2021.jpg" alt="jacquard" style="width:200px; background-color: transparent; border: 0px;">
-
-[Archived event link](https://www.antiuniversity.org/events/organising-the-cultural-sector-a-social-and-some-workshops)
