@@ -5,11 +5,9 @@ body {
     font-size: 14px;
 }
 
-/** affects ombre on link in print page
 a:hover {
-    background-color: rgb(179, 255, 185);
+    background-color: rgba(255, 28, 232, 0.205);
 }
-**/
 
 .info {
   position: relative;
@@ -106,6 +104,38 @@ a:hover {
   .column img {
     margin-top: 0px;
   }
+}
+
+/**------------------css for print-design-portfolio page--------------------------------------------------**/
+
+.portfolio-row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.portfolio-column {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  max-width: 20%;
+  padding: 0 4px;
+}
+
+.portfolio-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  background-color: rgba(255, 28, 232, 0.205);
+  border: 3px dotted blue;
+  border-width: 4px;
+  padding: 5px;
+}
+
+.portfolio-column p {
+  font-size: 11px;
+  font-style: italic;
 }
 
 /**------------------divs for prints page--------------------------------------------------**/
