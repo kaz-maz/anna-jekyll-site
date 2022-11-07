@@ -45,6 +45,25 @@ article a{
   display:inline;
 }
 
+.poem {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.poem img {
+  width:max-content;
+  height: auto;
+  border-radius: 20px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media only screen and (max-width: 600px) { .nav li { display: list-item;} }
 
 .menu{
@@ -79,3 +98,4 @@ article a{
 .welcome img { width: 400px; }
 
 @media only screen and (max-width: 600px) { .welcome img { width: 100%; } }
+
