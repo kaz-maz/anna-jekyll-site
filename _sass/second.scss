@@ -6,7 +6,7 @@ body {
 }
 
 a:hover {
-    background-color: rgba(234, 0, 255, 0.123);
+    background-color: rgb(255, 0, 242);
 }
 
 .info {
@@ -38,7 +38,7 @@ a:hover {
 @media only screen and (max-width: 600px) { .nav li { display: list-item;} }
 
 .menu{
-    background: rgba(0, 68, 255, 0.19);
+    background: rgb(150, 28, 0);
     padding: 0px;
     opacity: 1;
     position: relative;
@@ -46,7 +46,7 @@ a:hover {
     width: max-content;
 }
 
-@media only screen and (max-width: 600px) { .menu { width: 100%; font-size: 16px; top: -5px; background: rgba(0, 0, 0, 0.349);} }
+@media only screen and (max-width: 600px) { .menu { width: 100%; font-size: 16px; top: -5px; background: rgba(49, 0, 50, 0.828);} }
 
 /**------------------css for archive page--------------------------------------------------**/
 
