@@ -4,9 +4,9 @@ title: blob
 permalink: /my-blob/
 ---
 
-<div>
+<div class="blogtitles">
   {% for post in site.posts %}
-    <ul>
+    <ul style="list-style-type: none;">
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         {{ post.excerpt }}
       </li>

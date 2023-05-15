@@ -34,8 +34,11 @@ article a{
   background-color: rgba(255, 255, 153, 0.56);
 }
 
-@media only screen and (max-width: 600px) { article { text-align: center; font-size: 15px;} }
+@media only screen and (max-width: 600px) { article { text-align: center; font-size: 16px;} }
 
+.blogtitles {
+  margin-left: -40px;
+}
 .nav{
   list-style: none;
   padding:0;
@@ -64,7 +67,7 @@ article a{
   transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 600px) { .nav li { display: list-item;} }
+@media only screen and (max-width: 600px) { .nav li { display: list-item; } }
 
 .menu{
   background: rgb(155, 28, 0);
