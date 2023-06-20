@@ -67,6 +67,12 @@ article a{
   transform: translate(-50%, -50%);
 }
 
+/* Dotted border */
+hr.dotted {
+  border: 0;
+  border-top: 4px dotted rgb(255, 255, 255);
+}
+
 @media only screen and (max-width: 600px) { .nav li { display: list-item; } }
 
 .menu{
