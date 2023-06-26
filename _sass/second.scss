@@ -3,8 +3,12 @@ body {
     color: blue;
     font-family: Courier New, monospace;
     font-size: 14px;
+    font-weight: normal;
 }
 
+a {
+  color: rgb(183, 0, 255);
+}
 a:hover {
     background-color: rgb(255, 0, 242);
 }
