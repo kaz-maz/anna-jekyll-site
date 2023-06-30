@@ -8,16 +8,13 @@
   </head>
   <body>
     {% include header.html %}
-
     <div class="container">
       <div></div>
       <article>
          {{ content }} 
       </article>
+      <p>𓇗 {{ page.date | date_to_string }} 𓇗</p>
       <div></div>
     </div>
-
-     {% include footer.html %} 
- 
   </body>
 </html>
