@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 241, 113);
+    background-color: rgb(255, 255, 255);
   }
   
   img {
@@ -27,87 +27,174 @@ body {
     text-decoration: underline;
   }
 
-/**--------------------------CSS for lookbook room-----dear-sweetheart/lookbook page--------------------**/
+.text {
+  font-family: Courier New, monospace;
+  font-size: 14px;
+  color: rgb(254, 1, 1);
+  
 
-.print2 a:hover {
-    -webkit-filter: drop-shadow(10px 10px 30px rgb(255, 0, 0));
-    filter: drop-shadow(10px 10px 30px rgb(255, 0, 0)); 
-    }
-    
-    .print3 a:hover {
-    -webkit-filter: drop-shadow(10px 10px 30px rgb(0, 26, 255));
-    filter: drop-shadow(10px 10px 30px rgb(0, 26, 255)); 
-    }
-    
-    .print19 a:hover {
-    -webkit-filter: drop-shadow(0px 0px 20px rgb(255, 0, 0));
-    filter: drop-shadow(0px 0px 20px rgb(255, 0, 0)); 
-    }
-    
-    .print18 a:hover {
-    -webkit-filter: drop-shadow(10px 10px 20px rgb(255, 0, 0));
-    filter: drop-shadow(10px 10px 20px rgb(255, 0, 0)); 
-    }
-    
-    div.print {
-    background-image: url(table-background.png);
-    background-size: 900px;
-    z-index: -2;
-    background-repeat: no-repeat;
-    position: relative;
-    width: 100%;
-    height: max-content;
-    justify-content: first baseline;
-    }
-
-    div.credits{
-    position: absolute;
-    z-index: -1;
-    top: 280px;
-    left: 380px;
-    width: 100%;
-    height: auto;
-    }
-
-@media only screen and (max-width: 600px) { div.credits { left: 0px; top: 1210px;} }
-
-div.still1{
-  position: relative;
-  z-index: 0;
-  left: 0px;
-  width: auto;
-  height: auto;
 }
 
-div.still2{
-  position: relative;
-  z-index: 0;
-  left: 0px;
-  margin-top: -60px;
+/**--------------------------CSS for paintings room-----dear-sweetheart page--------------------**/
+
+.poster1{
+  position: absolute;
+  z-index: -3;
+  top: 140px;
+  left: 110px;
   width: auto;
   height: auto;
+  transform: rotate(-25deg);
 }
 
-@media only screen and (max-width: 600px) { div.still2 { left: 0px; margin-top: -50px;} }
+.poster1 img { width: 70%; height: auto; }
 
-div.still3{
-  position:relative;
-  z-index: 0;
-  left: 0px;
-  margin-top: -60px;
+.poster1:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
+
+@media only screen and (max-width: 600px) { .poster1 { position: relative; top: 0px; width: 100%; height: auto; left: 0px; transform:rotate(0deg); } }
+@media only screen and (max-width: 600px) { .poster1 img { width: 100%; height: auto; } }
+
+.poster2{
+  position: absolute;
+  z-index: -2;
+  top: 130px;
+  left: 180px;
   width: auto;
   height: auto;
+  transform: rotate(-15deg); 
 }
 
-@media only screen and (max-width: 600px) { div.still3 { left: 0px; margin-top: -50px;} }
+.poster2:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
 
-div.still4{
-  position:relative;
-  z-index: 0;
-  left: 0px;
-  margin-top: -60px;
+.poster2 img { width: 70%; height: auto; }
+
+@media only screen and (max-width: 600px) { .poster2 { position: relative; top: 0px; width: 100%; height: auto; left: 0px; transform:rotate(0deg); } }
+@media only screen and (max-width: 600px) { .poster2 img { width: 100%; height: auto; } }
+
+.poster3{
+  position: absolute;
+  z-index: -1;
+  top: 140px;
+  left: 270px;
   width: auto;
   height: auto;
+  transform: rotate(-2deg); 
 }
 
-@media only screen and (max-width: 600px) { div.still4 { left: 0px; margin-top: -50px;} }
+.poster3:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
+
+.poster3 img { width: 70%; height: auto; }
+
+@media only screen and (max-width: 600px) { .poster3 { position: relative; top: 0px; width: 100%; height: auto; left: 0px; transform:rotate(0deg); } }
+@media only screen and (max-width: 600px) { .poster3 img { width: 100%; height: auto; } }
+
+.poster4{
+  position: absolute;
+  z-index: 0;
+  top: 170px;
+  left: 340px;
+  width: auto;
+  height: auto;
+  transform: rotate(10deg); 
+}
+
+.poster4 img { width: 70%; height: auto; }
+
+.poster4:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
+
+@media only screen and (max-width: 600px) { .poster4 { position: relative; top: 0px; width: 100%; height: auto; left: 0px; transform:rotate(0deg); } }
+@media only screen and (max-width: 600px) { .poster4 img { width: 100%; height: auto; } }
+
+/**--------------------------CSS for stills room-----dear-sweetheart/lookbook page--------------------**/
+
+.still1{
+  position: absolute;
+  z-index: -3;
+  top: 140px;
+  left: 110px;
+  width: auto;
+  height: auto;
+  transform: rotate(-25deg);
+}
+
+.still1 img { width: 60%; height: auto; }
+
+.still1:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
+
+@media only screen and (max-width: 600px) { .still1 { position: relative; top: 0px; width: 100%; height: auto; left: 0px; transform:rotate(0deg); } }
+@media only screen and (max-width: 600px) { .still1 img { width: 100%; height: auto; } }
+
+.still2{
+  position: absolute;
+  z-index: -2;
+  top: 130px;
+  left: 180px;
+  width: auto;
+  height: auto;
+  transform: rotate(-15deg); 
+}
+
+.still2:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
+
+.still2 img { width: 60%; height: auto; }
+
+@media only screen and (max-width: 600px) { .still2 { position: relative; top: 0px; width: 100%; height: auto; left: 0px; transform:rotate(0deg); } }
+@media only screen and (max-width: 600px) { .still2 img { width: 100%; height: auto; } }
+
+.still3{
+  position: absolute;
+  z-index: -1;
+  top: 140px;
+  left: 270px;
+  width: auto;
+  height: auto;
+  transform: rotate(-2deg); 
+}
+
+.still3:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
+
+.still3 img { width: 60%; height: auto; }
+
+@media only screen and (max-width: 600px) { .still3 { position: relative; top: 0px; width: 100%; height: auto; left: 0px; transform:rotate(0deg); } }
+@media only screen and (max-width: 600px) { .still3 img { width: 100%; height: auto; } }
+
+.still4{
+  position: absolute;
+  z-index: 0;
+  top: 170px;
+  left: 340px;
+  width: auto;
+  height: auto;
+  transform: rotate(10deg); 
+}
+
+.still4 img { width: 60%; height: auto; }
+
+.still4:hover{
+  z-index: 1000;
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
+
+@media only screen and (max-width: 600px) { .still4 { position: relative; top: 0px; width: 100%; height: auto; left: 0px; transform:rotate(0deg); } }
+@media only screen and (max-width: 600px) { .still4 img { width: 100%; height: auto; } }
