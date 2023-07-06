@@ -1,14 +1,13 @@
 body {
-  background-image: url("flower-wallpaper.jpg");
-  background-size: 600px;
-  background-repeat: repeat;
-  background-position: center;
-  background-attachment: fixed;
-  height: max-content;
-  color: rgb(153, 0, 255);
-  font-family: Courier New, monospace;
-  font-size: 14px;
+    background-color: white;
+    color: blue;
+    font-family: Courier New, monospace;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-top: 23px;
 }
+@media only screen and (max-width: 600px) { body { margin-top: 90px; } }
 
 @media only screen and (max-width: 600px) { img { max-width: 100%;} }
 
@@ -23,7 +22,7 @@ h2{
 @media only screen and (max-width: 600px) { h2 { font-size: 25px;} }
 
 li:hover {
-  color: rgb(255, 0, 0); 
+  color: rgb(0, 255, 38); 
 }
 
 a:hover {
@@ -39,14 +38,27 @@ article a{
 .blogtitles {
   margin-left: -40px;
 }
+
 .nav{
   list-style: none;
   padding:0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
+@media only screen and (max-width: 600px) { .nav { background-color: blue; background: -webkit-linear-gradient(0deg,rgba(178, 178, 178, 0.289), rgb(255, 0, 0)); top: 0px; } }
+
 .nav li {
-  display:inline;
+    display:inline;
 }
+
+@media only screen and (max-width: 600px) { .nav li { text-align: right; display:list-item;} }
+
 
 .poem {
   position: relative;
@@ -72,39 +84,3 @@ hr.dotted {
   border: 0;
   border-top: 4px dotted rgb(255, 255, 255);
 }
-
-@media only screen and (max-width: 600px) { .nav li { display: list-item; } }
-
-.menu{
-  background: rgb(155, 28, 0);
-  padding: 0px;
-  opacity: 1;
-  position: relative;
-  top: -15px;
-  width: max-content;
-  font-size: 16px;
-}
-
-@media only screen and (max-width: 600px) { .menu { width: 100%; font-size: 20px; top: -5px; background: rgb(255, 255, 255);} }
-
-.info {
-  position: relative;
-  display:block;
-}
-
-.info a.imglink img {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-
-.info a.imglink:hover img{
-  opacity:0.5;
-}
-
-.welcome { position: relative; top: -10px; background-color: transparent; }
-
-.welcome img { width: 400px; }
-
-@media only screen and (max-width: 600px) { .welcome img { width: 100%; } }
-
