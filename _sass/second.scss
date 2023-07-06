@@ -4,6 +4,8 @@ body {
     font-family: Courier New, monospace;
     font-size: 14px;
     font-weight: normal;
+    margin-left: 0px;
+    margin-top: 23px;
 }
 
 a {
@@ -40,8 +42,15 @@ h3 {
 @media only screen and (max-width: 600px) { h2 { font-size: 25px;} }
 
 .nav{
-    list-style: none;
-    padding:0;
+  list-style: none;
+  padding:0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
   
 .nav li {
@@ -50,17 +59,26 @@ h3 {
 
 @media only screen and (max-width: 600px) { .nav li { display: list-item;} }
 
-.menu{
-    background: rgb(150, 28, 0);
-    padding: 0px;
-    opacity: 1;
-    position: relative;
-    top: -15px;
-    width: max-content;
-    font-size: 16px;
+@media only screen and (max-width: 600px) { .menu { width: 100%; font-size: 20px; top: -5px; background: rgb(255, 255, 255);} }
+
+.circled-text {
+	display: inline-block;
+  position: relative;
+  z-index: -3;
 }
 
-@media only screen and (max-width: 600px) { .menu { width: 100%; font-size: 20px; top: -5px; background: rgb(255, 255, 255);} }
+.circled-text::after {
+  background: url(/assets/circle.svg) no-repeat 50%;
+  background-size: 100%;
+  content: "";
+  left: -20%;
+  margin-top: -20%;
+  padding-top: 40%;
+  pointer-events: none;
+  position: absolute;
+  right: -20%;
+  top: 50%;
+}
 
 /**------------------css for archive page--------------------------------------------------**/
 
