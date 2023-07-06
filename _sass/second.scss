@@ -1,14 +1,14 @@
 body {
     background-color: white;
     color: blue;
-    font-family: Courier New, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     font-weight: normal;
     margin-left: 0px;
     margin-top: 23px;
 }
 
-@media only screen and (max-width: 600px) { body { margin-top: 61px; } }
+@media only screen and (max-width: 600px) { body { margin-top: 72px; font-size: 16px; } }
 
 a {
   color: rgb(0, 0, 0);
@@ -67,7 +67,7 @@ h3 {
 .circled-text {
 	display: inline-block;
   position: relative;
-  z-index: -3;
+  z-index: 0;
 }
 
 .circled-text::after {
@@ -208,7 +208,7 @@ h3 {
   width: 1200px;
   height: 50px;
   z-index: 5;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 14px;
   bottom: 0px;
   left: 212px;
