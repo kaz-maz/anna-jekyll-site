@@ -55,6 +55,7 @@ h3 {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 
 @media only screen and (max-width: 600px) { .nav { background-color: blue; background: -webkit-linear-gradient(0deg,rgba(178, 178, 178, 0.289), rgb(255, 0, 0)); top: 0px; } }
@@ -104,7 +105,7 @@ h3 {
   -ms-flex: 16.6%; /* IE10 */
   flex: 16.6%;
   max-width: 16.6%;
-  padding: 0 4px;
+  padding: 0 10px;
 }
 
 .column img {
@@ -112,33 +113,26 @@ h3 {
   vertical-align: middle;
   width: 100%;
   background-color: transparent;
-  box-shadow:0px 0px 50px 50px rgb(255, 255, 255);
+  -webkit-filter: drop-shadow(0px 0px 10px rgb(255, 0, 0));
 }
 
 .column p {
   font-size: 11px;
   font-style: italic;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+  background-color: rgb(209, 206, 206);
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 87%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .column img {
-    margin-top: 0px;
-    box-shadow: none;
+    margin-top: 10px;
   }
 }
 
