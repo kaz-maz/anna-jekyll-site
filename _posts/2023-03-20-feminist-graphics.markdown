@@ -3,11 +3,12 @@ layout: blog
 title: ✊ Feminist graphics over the years
 ---
 
-A selection of feminist graphics:<br>
-Commisioned by [Women's Strike UK](https://womenstrike.org.uk/) for International Women's Strike (8M) and for the queer + feminist climate bloc during the Global Day of Action for Climate Justice ([Cop26 Coalition](https://cop26coalition.org/))<br>
+A selection of feminist graphics (2021-2023):<br>
+Commisioned by Women's Strike UK for International Women's Strike (8M) and for the queer + feminist climate bloc during the Global Day of Action for Climate Justice<br>
+
 -> click on the images to enlarge
 
-#### ꕥ Social media graphics for Women's Strike UK, 8 March 2023
+#### ꕥ Social media graphics for [Women's Strike UK](https://womenstrike.org.uk/), 8 March 2023
 <div>
   <button class="imgLink">
 	<img
@@ -52,7 +53,7 @@ Commisioned by [Women's Strike UK](https://womenstrike.org.uk/) for Internationa
   </button>
 </div>
 
-#### ꕥ Posters and social media graphicsfor Women's Strike UK, 8 March 2022
+#### ꕥ Posters and social media graphicsfor [Women's Strike UK](https://womenstrike.org.uk/), 8 March 2022
 Fonts used: Genderfail [i am your worst fear i am your best fantasy](https://genderfailpress.info/PROTEST-FONTS) + [Syne](https://gitlab.com/bonjour-monde/fonderie/syne-typeface/-/tree/master)<br>
 Buy the A3 riso printed poster [here](https://womenstrike.org.uk/product/we-want-to-live-poster/)
 
@@ -79,7 +80,7 @@ Buy the A3 riso printed poster [here](https://womenstrike.org.uk/product/we-want
   </button>
 </div>
 
-#### ꕥ Social media graphics for the queer + feminist climate bloc @ Global Day of Action for Climate Justice, 6 November 2021
+#### ꕥ Social media graphics for the queer + feminist climate bloc @ Global Day of Action for Climate Justice, [Cop26 Coalition](https://cop26coalition.org/), 6 November 2021
 <div>
   <button class="imgLink">
 	<img
