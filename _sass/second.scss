@@ -150,43 +150,31 @@ h3 {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  margin-top: 8px;
 }
 
 .portfolio-column {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 12px;
 }
 
 .portfolio-column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-  background-color: rgba(255, 28, 232, 0.205);
-  border: 3px dotted blue;
-  border-width: 4px;
-  padding: 5px;
+  background-color: transparent;
+  box-shadow: 0px 0px 10px 5px rgba(255, 0, 242, 0.664);
+  border: 0px;
+  padding: 0px;
+  outline: 6px double rgba(255, 0, 242, 0.534);
+  outline-offset: -6px;
 }
 
 .portfolio-column p {
   font-size: 11px;
   font-style: italic;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .portfolio-column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-  .portfolio-column img {
-    margin-top: 8px;
-    background-color: rgba(255, 28, 232, 0.205);
-    border: 3px dotted blue;
-    padding: 4px;
-  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -195,12 +183,15 @@ h3 {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
+    padding: 0 9px;
   }
   .portfolio-column img {
     margin-top: 8px;
-    background-color: rgba(255, 28, 232, 0.205);
-    border: 3px dotted blue;
-    padding: 4px;
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 242, 0.664);
+    border: 0px;
+    padding: 0px;
+    outline: 4px double rgba(255, 0, 242, 0.534);
+    outline-offset: -4px;
   }
 }
 
