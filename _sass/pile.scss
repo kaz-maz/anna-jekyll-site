@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
+    cursor: url(/assets/color-pixels-shining-red-cursor.png), default;
   }
   
   img {
@@ -13,6 +14,10 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 14px;
   color: rgb(254, 1, 1);
+  }
+
+  a {
+    cursor: url(/assets/color-pixels-shining-red-pointer.png), default;
   }
 
   a:link {
