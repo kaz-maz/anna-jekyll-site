@@ -89,6 +89,79 @@ h3 {
   right: -20%;
   top: 50%;
 }
+/**------------------css for test page--------------------------------------------------**/
+
+.flex {
+    display: flex;
+    column-gap:1rem;
+}
+.flex > div {
+    width: calc(100%/2); /* Setting the width of columns at one third each */
+}
+/* The following CSS is for background colors only */
+.flex > div:nth-child(1) {
+  background-color: rgba(188, 187, 187, 0.7);
+  box-shadow: 0px 0px 10px 5px rgba(188, 187, 187, 0.9);
+  padding: 20px;
+  outline: 6px double rgb(188, 187, 187);
+  outline-offset: -6px;
+  text-align: center;
+}
+.flex > div:nth-child(2) {
+  background-color: rgba(255, 0, 242, 0.664);
+  box-shadow: 0px 0px 10px 5px rgba(255, 0, 242, 0.664);
+  padding: 20px;
+  outline: 6px double rgba(255, 0, 242, 0.534);
+  outline-offset: -6px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 13px;
+  color: white;
+}
+
+img
+{
+	width:400px;
+	height:auto;
+}
+
+button { 
+    font: Arial;
+    border:2px solid; 
+    border-color: #696 #363 #363 #696;
+  	color:white;
+	  width:max-content;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color:black;
+}
+
+.butt1
+{
+	background-color: red;
+}
+
+.butt2
+{
+	background-color: blue;
+}
+
+.butt3
+{
+	background-color: black;
+}
+.butt4
+{
+	background-color: black;
+}
+.butt5
+{
+	background-color: black;
+}
+
 
 /**------------------css for archive page--------------------------------------------------**/
 
