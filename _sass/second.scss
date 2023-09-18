@@ -602,17 +602,24 @@ transform: rotate(-5deg);
 .imgLink { border: none; background: none; }
 .imgLink img
 {
-  height: 5rem;
+  width: 100px; height: auto;
 }
 .imgLink:active img, .imgLink:focus img
 {
-  height: 30rem;
+  width: 500px; height: auto;
 }
-@media only screen and (max-width: 600px) { .imgLink:active img, .imgLink:focus img { width: 100%; height: auto;} }
 .imgLink:hover {
   opacity: 0.5;
 }
-
+@media screen and (max-width: 600px) {
+  .imgLink img {
+    width: 80px; height: auto;
+  }
+  .imgLink:active img, .imgLink:focus img {
+    height: auto;
+    max-width: 350px;
+  }
+}
 .imageposts {
   
 }
