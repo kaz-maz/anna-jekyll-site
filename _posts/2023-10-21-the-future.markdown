@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: The Future of the Antiuniversity
+title: 🔮 The Future of the Antiuniversity
 ---
 
 After many years of co-organising the Antiuniversity, the current crew is ready to hand over this wonderful, radical, wayward baby project. We will be hosting an outreach event to meet those interested in helping out and explain how the festival is currently organised.
@@ -27,4 +27,4 @@ Tue 24.10.23 18:30 - 20:30<br>
 @ Cooperation Town Hub<br>
 Haverstock Road London NW5 4RA<br>
 
-<img src="https://i.postimg.cc/C5bJ5Zwy/antiuni-slow-dirty.jpg" alt="event image" style="width:250px; background-color: transparent; border: 0px;">
+<img src="https://i.postimg.cc/Pr1yWV0m/antiuni-graphics-2023-flyer.png" alt="event flyer" style="width:250px; background-color: transparent; border: 0px;">

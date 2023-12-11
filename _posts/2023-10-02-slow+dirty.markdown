@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Collectivising feminist publishing-> Slow + Dirty Press
+title: 📕 Collectivising feminist publishing-> Slow + Dirty Press
 ---
 
 📜 Join us in our utopian dreaming for a brainstorming session on DIY publishing and what it could look like to set up a feminist press free from submission processes, top-down editing or formatting pressures, instead founded on resource sharing, mutual support, companionship, comadreo, transmission, circulation, political alliances, multi-disciplinarity and collectivised knowledge.
@@ -30,4 +30,7 @@ Mon 02.10.23 18:00 - 20:00
 @ MayDay Rooms
 88 Fleet Street London EC4Y 1DH
 
-<img src="https://i.postimg.cc/Pr1yWV0m/antiuni-graphics-2023-flyer.png" alt="event image" style="width:250px; background-color: transparent; border: 0px;">
+<img src="https://i.postimg.cc/C5bJ5Zwy/antiuni-slow-dirty.jpg" alt="event image" style="width:250px; background-color: transparent; border: 0px;">
+
+<img src="https://i.postimg.cc/3rqB4sY7/slow-and-dirty-mayday-rooms.jpg" alt="event image" style="width:250px; background-color: transparent; border: 0px;">
+
