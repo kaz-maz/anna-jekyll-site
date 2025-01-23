@@ -10,7 +10,7 @@ body {
 
 }
 
-@media only screen and (max-width: 600px) { body { margin-top: 110px; font-size: 16px; } }
+@media only screen and (max-width: 600px) { body { margin-top: 30px; font-size: 20px; } }
 
 a {
   color: rgb(0, 0, 0);
@@ -55,20 +55,22 @@ h3 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(158, 158, 158);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
 }
 
-@media only screen and (max-width: 600px) { .nav { background-color: blue; background: -webkit-linear-gradient(0deg,rgba(178, 178, 178, 0.289), rgb(255, 0, 0)); top: 0px; } }
+
+
+@media only screen and (max-width: 600px) { .nav { background-color: blue; background: white; top: 0px; } }
 
 .nav li {
     display:inline;
 }
 
-@media only screen and (max-width: 600px) { .nav li { text-align: right; display:list-item;} }
+@media only screen and (max-width: 600px) { .nav li { text-align: right; display:inline;} }
 
 
 .circled-text {
