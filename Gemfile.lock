@@ -60,10 +60,11 @@ GEM
 
 PLATFORMS
   x86_64-darwin-18
+  x86_64-darwin-21
 
 DEPENDENCIES
   jekyll (~> 4.2.0)
   webrick
 
 BUNDLED WITH
-   2.4.22
+   2.4.10

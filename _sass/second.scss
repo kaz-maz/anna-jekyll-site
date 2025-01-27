@@ -10,7 +10,7 @@ body {
 
 }
 
-@media only screen and (max-width: 600px) { body { margin-top: 30px; font-size: 20px; } }
+@media only screen and (max-width: 600px) { body { margin-top: 26px; font-size: 20px; } }
 
 a {
   color: rgb(0, 0, 0);
@@ -30,7 +30,7 @@ h3 {
   text-decoration-style: dotted;
 }
 
-@media only screen and (max-width: 600px) { h3 { font-size: 16px; } }
+@media only screen and (max-width: 600px) { h3 { font-size: 20px; } }
 
 .info {
   position: relative;
@@ -55,7 +55,7 @@ h3 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(158, 158, 158);
+  background-color: rgba(202,206,214,1);
   position: fixed;
   top: 0;
   width: 100%;
@@ -64,7 +64,7 @@ h3 {
 
 
 
-@media only screen and (max-width: 600px) { .nav { background-color: blue; background: white; top: 0px; } }
+@media only screen and (max-width: 600px) { .nav { background-color:rgba(202,206,214,1); top: 0px; } }
 
 .nav li {
     display:inline;
