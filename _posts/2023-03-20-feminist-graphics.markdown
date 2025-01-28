@@ -3,10 +3,41 @@ layout: blog
 title: ✊ Feminist graphics over the years
 ---
 
-A selection of feminist graphics (2021-2023):<br>
+A selection of feminist graphics (2021-2024):<br>
 Commisioned by Women's Strike UK for International Women's Strike (8M) and for the queer + feminist climate bloc during the Global Day of Action for Climate Justice<br>
 
 -> click on the images to enlarge
+
+#### ꕥ Graphics for social media, screenprinted posters and flags, 8 March 2024
+<div>
+  <button class="imgLink">
+	<img
+	  src="https://i.postimg.cc/yx7tf24d/fem-for-pal.jpg"
+	  alt="details"
+	/>
+  </button>
+
+  <button class="imgLink">
+	<img
+	  src="https://cdn.glitch.global/78a99869-6923-4b39-9618-b283c60c8359/flags-8m.jpeg?v=1717432044093"
+	  alt="details"
+	/>
+  </button>
+  
+  <button class="imgLink">
+	<img
+	  src="https://i.postimg.cc/qq6W9r08/screenprint-8m.jpg"
+	  alt="details"
+	/>
+  </button>
+
+ <button class="imgLink">
+	<img
+	  src="https://i.postimg.cc/4dLBwcTy/8-M-graphics.png"
+	  alt="8M graphics"
+	/>
+  </button>
+</div>
 
 #### ꕥ Social media graphics for [Women's Strike UK](https://womenstrike.org.uk/), 8 March 2023
 <div>
