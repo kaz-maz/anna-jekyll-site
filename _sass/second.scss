@@ -165,52 +165,49 @@ button {
 }
 
 
-/**------------------css for archive page--------------------------------------------------**/
+/**------------------css for gallery page--------------------------------------------------**/
 
-* {
-  box-sizing: border-box;
+.archive-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
 }
 
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+.archive-gallery figure {
+  margin: 0;
+  text-align: left; /* Center the caption */
+  background: rgba(255, 255, 255, 0.569); /* Optional: Adds a white background for text */
+  padding: 0px;
+  border-radius: 0px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Create six equal columns that sits next to each other */
-.column {
-  -ms-flex: 16.6%; /* IE10 */
-  flex: 16.6%;
-  max-width: 16.6%;
-  padding: 0 10px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+.archive-gallery figure img {
   width: 100%;
-  background-color: transparent;
+  max-height: 300px;
+  border-radius: 0px;
+  object-fit: cover;
 }
 
-.column p {
+.archive-gallery figcaption {
+  font-family: 'Pixelify Sans', sans-serif; /* Lighter pixel font */
   font-size: 11px;
-  font-style: italic;
-  background-color: rgb(209, 206, 206);
+  color: blue;
+  margin-top: 0px;
+  font-style: normal;
+  text-transform: none; /* Allows lowercase */
+  letter-spacing: 1px;
 }
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 87%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .column img {
-    margin-top: 10px;
+.archive-gallery figure img {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 0px;
+    object-fit: cover;
   }
 }
 
