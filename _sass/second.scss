@@ -121,12 +121,6 @@ h3 {
   color: white;
 }
 
-img
-{
-	width:400px;
-	height:auto;
-}
-
 button { 
     font: Arial;
     border:2px solid; 
@@ -171,7 +165,7 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .archive-gallery figure {
@@ -201,11 +195,17 @@ button {
 }
 
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes two columns stack */
 @media screen and (max-width: 600px) {
-.archive-gallery figure img {
+  .archive-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
+    gap: 10px; /* Adjust the gap as needed */
+  }
+
+  .archive-gallery figure img {
     width: 100%;
-    max-height: 100%;
+    height: auto; /* Keeps aspect ratio intact */
     border-radius: 0px;
     object-fit: cover;
   }
@@ -218,16 +218,19 @@ button {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
+  justify-content: space-between; /* Ensures columns are spaced properly */
   padding: 0 4px;
   margin-top: 8px;
 }
 
 .portfolio-column {
   -ms-flex: 25%; /* IE10 */
-  flex: 25%;
+  flex: 1 1 25%; /* Allows flexibility while keeping 25% width */
+  box-sizing: border-box; /* Prevents padding from affecting width */
   max-width: 25%;
-  padding: 0 12px;
+  padding: 0 8px;
 }
+
 
 .portfolio-column img {
   margin-top: 8px;
@@ -251,7 +254,7 @@ button {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
-    padding: 0 9px;
+    padding: 0 4px;
   }
   .portfolio-column img {
     margin-top: 8px;
@@ -662,7 +665,4 @@ transform: rotate(-5deg);
     height: auto;
     max-width: 350px;
   }
-}
-.imageposts {
-  
 }
