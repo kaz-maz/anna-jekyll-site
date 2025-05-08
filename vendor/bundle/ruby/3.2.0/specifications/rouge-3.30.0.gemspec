@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = "rouge".freeze
-  s.version = "3.30.0"
+  s.version = "3.30.0".freeze
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = { "bug_tracker_uri" => "https://github.com/rouge-ruby/rouge/issues", "changelog_uri" => "https://github.com/rouge-ruby/rouge/blob/master/CHANGELOG.md", "documentation_uri" => "https://rouge-ruby.github.io/docs/", "source_code_uri" => "https://github.com/rouge-ruby/rouge" } if s.respond_to? :metadata=
@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.homepage = "http://rouge.jneen.net/".freeze
   s.licenses = ["MIT".freeze, "BSD-2-Clause".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.0".freeze)
-  s.rubygems_version = "3.4.10".freeze
+  s.rubygems_version = "3.1.6".freeze
   s.summary = "A pure-ruby colorizer based on pygments".freeze
 
-  s.installed_by_version = "3.4.10" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.6.8".freeze
 end

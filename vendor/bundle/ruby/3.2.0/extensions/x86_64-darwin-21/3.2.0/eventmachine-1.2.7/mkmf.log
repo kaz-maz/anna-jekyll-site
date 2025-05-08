@@ -166,7 +166,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/Users/annacorfa/.rbenv/versions/3.2.2/lib "clang -o conftest -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0/x86_64-darwin21 -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0 -I. -I/usr/local/Cellar/openssl@3/3.4.0/include -I/usr/local/opt/openssl@3/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  conftest.c  -L. -L/Users/annacorfa/.rbenv/versions/3.2.2/lib -L/usr/local/opt/openssl@3/lib -L. -fstack-protector-strong -L/usr/local/Cellar/openssl@3/3.4.0/lib     -lssl -lcrypto -lcrypto -lssl -lruby.3.2  -lssl -lcrypto -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture x86_64:
   "_rb_thread_blocking_region", referenced from:
-      _t in conftest-44bdd9.o
+      _t in conftest-52cebc.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -329,7 +329,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/Users/annacorfa/.rbenv/versions/3.2.2/lib "clang -o conftest -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0/x86_64-darwin21 -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0 -I. -I/usr/local/Cellar/openssl@3/3.4.0/include -I/usr/local/opt/openssl@3/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  conftest.c  -L. -L/Users/annacorfa/.rbenv/versions/3.2.2/lib -L/usr/local/opt/openssl@3/lib -L. -fstack-protector-strong -L/usr/local/Cellar/openssl@3/3.4.0/lib     -lssl -lcrypto -lcrypto -lssl -lruby.3.2  -lssl -lcrypto -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture x86_64:
   "_rb_enable_interrupt", referenced from:
-      _t in conftest-f2ad5f.o
+      _t in conftest-890441.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -510,7 +510,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/Users/annacorfa/.rbenv/versions/3.2.2/lib "clang -o conftest -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0/x86_64-darwin21 -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0 -I. -I/usr/local/Cellar/openssl@3/3.4.0/include -I/usr/local/opt/openssl@3/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  conftest.c  -L. -L/Users/annacorfa/.rbenv/versions/3.2.2/lib -L/usr/local/opt/openssl@3/lib -L. -fstack-protector-strong -L/usr/local/Cellar/openssl@3/3.4.0/lib     -lssl -lcrypto -lcrypto -lssl -lruby.3.2  -lssl -lcrypto -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture x86_64:
   "_pipe2", referenced from:
-      _t in conftest-282fa8.o
+      _t in conftest-d21637.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -566,7 +566,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/Users/annacorfa/.rbenv/versions/3.2.2/lib "clang -o conftest -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0/x86_64-darwin21 -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/annacorfa/.rbenv/versions/3.2.2/include/ruby-3.2.0 -I. -I/usr/local/Cellar/openssl@3/3.4.0/include -I/usr/local/opt/openssl@3/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  conftest.c  -L. -L/Users/annacorfa/.rbenv/versions/3.2.2/lib -L/usr/local/opt/openssl@3/lib -L. -fstack-protector-strong -L/usr/local/Cellar/openssl@3/3.4.0/lib     -lssl -lcrypto -lcrypto -lssl -lruby.3.2  -lssl -lcrypto -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture x86_64:
   "_accept4", referenced from:
-      _t in conftest-e12e79.o
+      _t in conftest-f40e46.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:

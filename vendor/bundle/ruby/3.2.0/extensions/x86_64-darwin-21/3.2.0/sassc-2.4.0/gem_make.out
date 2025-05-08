@@ -3,10 +3,10 @@ current directory: /Users/annacorfa/anna-jekyll-site/vendor/bundle/ruby/3.2.0/ge
 creating Makefile
 
 current directory: /Users/annacorfa/anna-jekyll-site/vendor/bundle/ruby/3.2.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20250127-8380-pgpm8x sitelibdir\=./.gem.20250127-8380-pgpm8x clean
+make DESTDIR\= sitearchdir\=./.gem.20250508-6128-uk7kvc sitelibdir\=./.gem.20250508-6128-uk7kvc clean
 
 current directory: /Users/annacorfa/anna-jekyll-site/vendor/bundle/ruby/3.2.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20250127-8380-pgpm8x sitelibdir\=./.gem.20250127-8380-pgpm8x
+make DESTDIR\= sitearchdir\=./.gem.20250508-6128-uk7kvc sitelibdir\=./.gem.20250508-6128-uk7kvc
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -87,8 +87,8 @@ linking shared-object sassc/libsass.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/annacorfa/anna-jekyll-site/vendor/bundle/ruby/3.2.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20250127-8380-pgpm8x sitelibdir\=./.gem.20250127-8380-pgpm8x install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20250127-8380-pgpm8x/sassc
+make DESTDIR\= sitearchdir\=./.gem.20250508-6128-uk7kvc sitelibdir\=./.gem.20250508-6128-uk7kvc install
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20250508-6128-uk7kvc/sassc
 
 current directory: /Users/annacorfa/anna-jekyll-site/vendor/bundle/ruby/3.2.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20250127-8380-pgpm8x sitelibdir\=./.gem.20250127-8380-pgpm8x clean
+make DESTDIR\= sitearchdir\=./.gem.20250508-6128-uk7kvc sitelibdir\=./.gem.20250508-6128-uk7kvc clean
