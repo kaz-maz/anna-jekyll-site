@@ -14,6 +14,8 @@ Together, we would like to practically think of systems of resource and skill sh
 
 <img src="https://i.postimg.cc/L8r5Hsqp/slow-dirty-worksheet-front-cover-01.png" alt="event image" style="height:350px; background-color: transparent; border: 0px;"><img src="https://i.postimg.cc/XYZXS5YL/slow-dirty-worksheet-front-cover.png" alt="event image" style="height:350px; background-color: transparent; border: 0px;"><img src="https://i.postimg.cc/brNN6D5Q/slow-dirty-worksheet-front.png" alt="event image" style="height:350px; background-color: transparent; border: 0px;">
 
+Viewing the iframe below works best on desktop, or visit our notes [here](https://board.net/p/r.f47614fc97025db5e0a6bbe63e7b70d9).
+
 <iframe name="embed_readonly" src="https://board.net/p/r.f47614fc97025db5e0a6bbe63e7b70d9?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false" width="100%" height="500" frameborder="0"></iframe>
 
 #### ꕥ Book tickets [here](https://lu.ma/11hgvl9c/)
