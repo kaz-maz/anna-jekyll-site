@@ -23,27 +23,40 @@ body {
 
 <body>
 
+
 <mark>1.on paper 📜</mark> jump to <a href="#section1">2.on fabric 🐾</a><br>
 
 <div class="archive-gallery">
 <figure>
-      <img src="https://i.postimg.cc/L8r5Hsqp/slow-dirty-worksheet-front-cover-01.png" alt="slow-dirty-worksheet-front-cover-01">
-      <figcaption>Worksheet for the workshop Collectivising Feminist Publishing #02, London, June 2025</figcaption>
+      <img src="https://i.postimg.cc/QCNzM8Ds/how-you-like-to-be-alive-cover.jpg" alt="slow-dirty-worksheet-front-cover-01">
+      <figcaption>Cover design + illustration for Catherine Kelly's chapbook, How You Like To Be Alive, Distance No Object, 2025 <a href="https://distancenoobject.cargo.site/Kelly">*buy it here :-p</a></figcaption>
 </figure>
-    <figure>
-      <img src="https://i.postimg.cc/CxDym0Gx/postcards-hoa.png" alt="postcards-hoa">
-      <figcaption>Riso-printed postcard/flyers for House of Annetta, <a href="/graphics-for-hoa" target="_blank" rel="noopener">see more images here</a>, 2025</figcaption>
+<figure>
+      <img src="https://i.postimg.cc/151xkqf5/NDT-Graphics-WIP-03-03.jpg" alt="slow-dirty-worksheet-front-cover-01">
+<figcaption>Graphics for New Diaroma Theatre's <a href="https://newdiorama.com/news/announcing-our-25-26-artist-support-season">Artist Support Season 2025-2026</a></figcaption>
+    </figure>
+<figure>
+<div id="slideshow">
+  <img src="https://i.postimg.cc/VkG4qxtj/hoa-postcard.jpg" alt="postcards-hoa">
+	<img src="https://i.postimg.cc/CxDym0Gx/postcards-hoa.png" style="display: none">
+	<img src="https://i.postimg.cc/jSgvHpf4/hoa-postcards.jpg" style="display: none">
+  <figcaption>Riso-printed postcard/flyers for House of Annetta, 2025</figcaption>
+</div>
+</figure>
+  <figure>
+      <img src="https://i.postimg.cc/Qd4SQ27S/press-flyers.jpg" alt="community-press-flyer-scan">
+      <figcaption>Riso-printed flyers for the House of Annetta's community press, 2025</figcaption>
   </figure>
   <figure>
-      <img src="https://i.postimg.cc/PxM5zzSX/community-press-flyer-scan.png" alt="community-press-flyer-scan">
-      <figcaption>Riso-printed flyers for the House of Annetta's community press, <a href="/graphics-for-hoa" target="_blank" rel="noopener">see more images here</a>, 2025</figcaption>
-  </figure>
+	<img src="https://i.postimg.cc/L8r5Hsqp/slow-dirty-worksheet-front-cover-01.png" alt="slow-dirty-worksheet-front-cover-01">
+  <figcaption>Worksheet for the workshop Collectivising Feminist Publishing #02, London, June 2025</figcaption>
+</figure>
   <figure>
-      <img src="https://i.postimg.cc/J06zDNqs/Ho-A-Newsletter-Issue02-SCAN.png" alt="Ho-A-Newsletter-Issue0-SCAN" style="object-fit: contain;">
+      <img src="https://i.postimg.cc/hv4hS5tZ/newsletter-magnets.jpg" alt="Ho-A-Newsletter-Issue0-SCAN" style="object-fit: contain;">
       <figcaption>Designing the House of Annetta newsletter, the template can be adapted each month by any user, <a href="https://houseofannetta.org/the-archive-and-press" target="_blank" rel="noopener">view scans of all previous issues here</a>, 2024-2025</figcaption>
   </figure>
   <figure>
-      <img src="https://i.postimg.cc/xjtC4Q29/Ho-A-Newsletter-Issue0-SCAN.png" alt="Ho-A-Newsletter-Issue0-SCAN" style="object-fit: contain;">
+      <img src="https://i.postimg.cc/xjtC4Q29/Ho-A-Newsletter-Issue0-SCAN.png" alt="Ho-A-Newsletter-Issue09-SCAN" style="object-fit: contain;">
       <figcaption>Designing the House of Annetta newsletter, the template can be adapted each month by any user, <a href="https://houseofannetta.org/the-archive-and-press" target="_blank" rel="noopener">view scans of all previous issues here</a>, 2024-2025</figcaption>
   </figure>
   <figure>
@@ -63,7 +76,7 @@ body {
       <figcaption>Preview for <a href="/comics" target="_blank" rel="noopener">Adventures in Outer Mess</a>, a riso-printed comic, London, September 2022</figcaption>
   </figure>
     <figure>
-      <img src="https://i.postimg.cc/90X5JGjZ/planche-03.png" alt="chocolatechipparanoia">
+      <img src="https://i.postimg.cc/qRWwCy9h/adventures-planche-03.png" alt="chocolatechipparanoia">
       <figcaption>Adventures in Outer Mess, webcomic <a href="https://comicfury.com/read/outer-mess/comics/1836736">[read here]</a>, London, 2022</figcaption>
 </figure>
   <figure>
@@ -376,4 +389,17 @@ body {
 </div>
 
 </body>
+
+<script>
+var slideshow = document.getElementById('slideshow');
+var slides = slideshow.getElementsByTagName('img');
+var idx = 0;
+function changeSlide() {
+	slides[idx].style.display = 'none';
+	idx = (idx + 1) % slides.length;
+	slides[idx].style.display = 'block';
+}
+setInterval(changeSlide, 3000);
+</script>
+
 </html>

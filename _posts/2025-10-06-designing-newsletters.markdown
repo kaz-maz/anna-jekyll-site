@@ -9,3 +9,5 @@ title: 🗞 Designing the House of Annetta newsletter
 <img src="https://i.postimg.cc/Dfp0Wqxz/newsletter-wall.png" alt="event image" style="height:350px; background-color: transparent; border: 0px;">
 <img src="https://i.postimg.cc/zGZJWpWt/cat-newsletter.jpg" alt="event image" style="height:350px; background-color: transparent; border: 0px;">
 <img src="https://i.postimg.cc/4xsFchLn/Ho-A-Newsletter-template.png" alt="event image" style="height:350px; background-color: transparent; border: 0px;">
+<img src="https://i.postimg.cc/BnYNTrFp/issue-0-zoom.png" alt="event image" style="height:350px; background-color: transparent; border: 0px;">
+<img src="https://i.postimg.cc/7ZsX3FzV/hoa-newsletter-collage.jpg" alt="event image" style="height:350px; background-color: transparent; border: 0px;">
