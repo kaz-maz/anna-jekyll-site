@@ -4,7 +4,9 @@ title: 🗞 Designing the House of Annetta newsletter
 ---
 A bit more background for the House of Annetta Newsletter/Kitchen Rag, its beginnings, concerns and systems for more DIY collectivised design processes.
 
-Slow + Dirty Press and House of Annetta members began gathering in May 2024, after HoA tentatively invited SDP to be the press in residency at the house. Annetta Pedretti, the previous occupier of 25 Princelet street had a printing press [*you can read more about it here](https://houseofannetta.org/the-archive-and-press), today the house's new residents often work in her steps, honouring the projects she began behind these walls and beyond.
+[UPDATE]:you can now view all scans of the newsletter (2024-today) [here](https://houseofannetta.org/overlay-newsletter-archive).
+
+Slow + Dirty Press and House of Annetta members began gathering in May 2024, after HoA tentatively invited SDP to be the press in residency at the house. Annetta Pedretti, the previous occupier of 25 Princelet street had a printing press [*you can read more about it here](https://houseofannetta.org/annetta-pedretti), today the house's new residents often work in her steps, honouring the projects she began behind these walls and beyond.
 
 A pressing material House of Annetta wanted to put out was a paper newsletter, distributed locally and bypassing algorithmic logics of social media. A lot happens at the house that isn’t recorded but this would be an attempt to physically publicise and simultaneously archive some of the many events, meetings, conversations, findings that come out of the space. In the spirit of Annetta Pedretti, who intentionally stripped back the layers of the building to reveal its history, we intend to work in ways which make process visible=creation accessible.
 
