@@ -10,7 +10,7 @@ body {
 
 }
 
-@media only screen and (max-width: 600px) { body { margin-top: 26px; font-size: 18px; } }
+@media only screen and (max-width: 600px) { body { margin-top: 35px; font-size: 18px; } }
 
 a {
   color: rgb(0, 0, 0);
@@ -62,16 +62,13 @@ h3 {
   z-index: 10;
 }
 
-
-
-@media only screen and (max-width: 600px) { .nav { background-color:rgba(202,206,214,1); top: 0px; } }
+@media only screen and (max-width: 600px) { .nav { top: 0px; } }
 
 .nav li {
-    display:inline;
+  display: inline;
+  width: 100%;
+  min-width: fit-content;
 }
-
-@media only screen and (max-width: 600px) { .nav li { text-align: right; display:inline;} }
-
 
 .circled-text {
 	display: inline-block;
@@ -184,8 +181,13 @@ button {
   object-fit: cover;
 }
 
+@font-face {
+  font-family: basiic;
+  src: url("/assets/fonts/basiic.ttf");
+}
+
 .archive-gallery figcaption {
-  font-family: 'Pixelify Sans', sans-serif; /* Lighter pixel font */
+  font-family: basiic; /* Lighter pixel font */
   font-size: 11px;
   color: rgb(159, 0, 0);
   margin-top: 0px;

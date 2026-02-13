@@ -5,11 +5,11 @@ body {
     font-size: 18px;
     font-weight: normal;
     margin-left: 0px;
-    margin-top: 23px;
+    margin-top: px;
     
     cursor: url(/assets/color-pixels-shining-red-cursor.png), default;
 }
-@media only screen and (max-width: 600px) { body { margin-top: 26px; font-size: 18px; } }
+@media only screen and (max-width: 600px) { body { margin-top: 35px; font-size: 18px; } }
 
 @media only screen and (max-width: 600px) { img { max-width: 100%;} }
 
@@ -19,6 +19,10 @@ p{
 
 h2{
   color: rgb(0, 0, 0);
+}
+
+h3{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 @media only screen and (max-width: 600px) { h2 { font-size: 25px;} }
@@ -60,14 +64,13 @@ article a{
 }
 
 
-@media only screen and (max-width: 600px) { .nav { background-color:rgba(202,206,214,1); top: 0px; } }
+@media only screen and (max-width: 600px) { .nav { top: 0px; } }
 
 .nav li {
-    display:inline;
+  display: inline;
+  width: 100%;
+  min-width: fit-content;
 }
-
-@media only screen and (max-width: 600px) { .nav li { text-align: right; display:inline;} }
-
 
 .poem {
   position: relative;
