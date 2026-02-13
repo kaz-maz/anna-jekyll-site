@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: 🎨 T-shirt printing workshop for International Women's Day, London
+published: false
 ---
 
 Day of screenprinting t-shirts with clients and staff of Advance Charity's women centre for a workshop and activity day for International Women's Day. Together we picked slogans and printed them in different colours on t-shirts.

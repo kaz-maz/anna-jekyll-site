@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: 🎨 T-Shirt printing workshop at Festival of Solidarity, Folkestone
+published: false
 ---
 
 DIY T-shirt printing workshop under the craft tent! Designs made with festival goers and barrack residents by sticking stencils on a fresh screen.

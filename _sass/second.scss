@@ -10,7 +10,7 @@ body {
 
 }
 
-@media only screen and (max-width: 600px) { body { margin-top: 26px; font-size: 20px; } }
+@media only screen and (max-width: 600px) { body { margin-top: 26px; font-size: 18px; } }
 
 a {
   color: rgb(0, 0, 0);
@@ -30,7 +30,7 @@ h3 {
   text-decoration-style: dotted;
 }
 
-@media only screen and (max-width: 600px) { h3 { font-size: 20px; } }
+@media only screen and (max-width: 600px) { h3 { font-size: 18px; } }
 
 .info {
   position: relative;
@@ -187,7 +187,7 @@ button {
 .archive-gallery figcaption {
   font-family: 'Pixelify Sans', sans-serif; /* Lighter pixel font */
   font-size: 11px;
-  color: blue;
+  color: rgb(159, 0, 0);
   margin-top: 0px;
   font-style: normal;
   text-transform: none; /* Allows lowercase */

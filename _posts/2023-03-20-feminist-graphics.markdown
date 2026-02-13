@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: ✊ Feminist graphics over the years
+published: false
 ---
 
 A selection of feminist graphics (2021-2024):<br>
