@@ -5,12 +5,12 @@ body {
     font-size: 18px;
     font-weight: normal;
     margin-left: 0px;
-    margin-top: 30px;
+    margin-top: 35px;
     cursor: url(/assets/color-pixels-shining-red-cursor.png), default;
 
 }
 
-@media only screen and (max-width: 600px) { body { margin-top: 35px; font-size: 18px; } }
+@media only screen and (max-width: 600px) { body { font-size: 18px; } }
 
 a {
   color: rgb(0, 0, 0);
@@ -88,6 +88,22 @@ h3 {
   right: -20%;
   top: 50%;
 }
+
+dialog {
+  background-color: rgba(255, 0, 242, 0.164);
+  width: fit-content;
+  padding: 10px;
+  border: 1px solid;
+  border-color: blue;
+  text-align: right;
+}
+
+dialog img {
+  width: 500px;
+}
+
+@media only screen and (max-width: 600px) { dialog img { width: 300px; } }
+
 /**------------------css for test page--------------------------------------------------**/
 
 .flex {
@@ -119,11 +135,9 @@ h3 {
 }
 
 button { 
-    font: Arial;
-    border:2px solid; 
-    border-color: #696 #363 #363 #696;
-  	color:white;
-	  width:max-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+	  width: max-content;
     transition-duration: 0.4s;
 }
 
